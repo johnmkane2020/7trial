@@ -506,6 +506,50 @@ CASE( Dreamforce__c,
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>Type_of_Pet__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Pet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dog</fullName>
+                    <default>false</default>
+                    <label>Dog</label>
+                </value>
+                <value>
+                    <fullName>Cat</fullName>
+                    <default>false</default>
+                    <label>Cat</label>
+                </value>
+                <value>
+                    <fullName>Reptile</fullName>
+                    <default>false</default>
+                    <label>Reptile</label>
+                </value>
+                <value>
+                    <fullName>Fish</fullName>
+                    <default>false</default>
+                    <label>Fish</label>
+                </value>
+                <value>
+                    <fullName>Bird</fullName>
+                    <default>false</default>
+                    <label>Bird</label>
+                </value>
+                <value>
+                    <fullName>Insect</fullName>
+                    <default>false</default>
+                    <label>Insect</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllContacts</fullName>
         <columns>FULL_NAME</columns>
